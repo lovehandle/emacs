@@ -27,6 +27,7 @@
 (add-to-list 'load-path (concat config-dir "/rspec"))
 (add-to-list 'load-path (concat config-dir "/git"))
 (add-to-list 'load-path (concat config-dir "/yasnippet"))
+(add-to-list 'load-path (concat config-dir "/markdown"))
 
 (require 'ruby_config)
 (require 'lisp_config)
@@ -35,6 +36,7 @@
 (require 'rspec_config)
 (require 'git_config)
 (require 'yasnippet_config)
+(require 'markdown_config)
 
 ;; Chat and Social network customizations
 
