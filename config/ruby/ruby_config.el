@@ -15,6 +15,10 @@
 ;; Rake files are ruby, too, as are gemspecs, rackup files, etc.
 (add-to-list 'auto-mode-alist '("\\.rb\\'" . ruby-mode))
 
+
+(require 'haml-mode)
+(require 'sass-mode)
+
 (add-to-list 'auto-mode-alist '("\\.haml\\'" . haml-mode))
 (add-to-list 'auto-mode-alist '("\\.sass\\'" . sass-mode))
 
