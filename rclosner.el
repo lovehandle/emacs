@@ -7,6 +7,7 @@
 (require 'uniquify)
 (require 'ansi-color)
 (require 'recentf)
+(require 'crosshairs)
 
 ;; General interface customizations 
 
