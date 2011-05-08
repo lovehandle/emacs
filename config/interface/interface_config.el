@@ -61,4 +61,8 @@
 
 (autoload 'ack "ack-emacs" nil t)
 
+;; Flyspell / Be sure to install aspell (en)
+
+(setq-default ispell-program-name "aspell")
+
 (provide 'interface_config)
