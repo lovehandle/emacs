@@ -6,6 +6,10 @@
 ;; Completion that uses many different methods to find options.
 (global-set-key (kbd "M-/") 'hippie-expand)
 
+;; Font size
+(define-key global-map (kbd "C-+") 'text-scale-increase)
+(define-key global-map (kbd "C--") 'text-scale-decrease)
+
 ;; Perform general cleanup.
 (global-set-key (kbd "M-N") 'cleanup-buffer)
 
@@ -27,5 +31,8 @@
 
 ;; For debugging Emacs modes
 (global-set-key (kbd "C-c p") 'message-point)
+
+;; Use apple key as meta
+(setq x-super-keysym 'meta)
 
 (provide 'keybindings_config)
